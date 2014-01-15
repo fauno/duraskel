@@ -5,8 +5,7 @@ For hardened configurations for servers see
 
 ## Installation
 
-Run `make install` as root.  It needs rsync and it *will* remove
-anything you had in /etc/skel.
+Run `make install` as root.  It needs rsync.
 
 ## Contributions
 

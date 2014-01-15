@@ -1,6 +1,6 @@
 # Sync /etc/skel with whatever is in src/ after fixing file modes
 install: set-file-modes
-	rsync -av --delete src/ /etc/skel/
+	rsync -av src/ /etc/skel/
 
 # Since git doesn't care about file modes we have to set them manually
 # here
