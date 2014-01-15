@@ -11,4 +11,4 @@ anything you had in /etc/skel.
 ## Contributions
 
 I'm using gitflow.  Please create your branches from the *develop*
-branc.
+branch.
