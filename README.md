@@ -7,3 +7,8 @@ For hardened configurations for servers see
 
 Run `make install` as root.  It needs rsync and it *will* remove
 anything you had in /etc/skel.
+
+## Contributions
+
+I'm using gitflow.  Please create your branches from the *develop*
+branc.
