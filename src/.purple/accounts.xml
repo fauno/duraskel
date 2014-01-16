@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-bonjour</protocol>
+		<name>User</name>
+		<settings>
+			<setting name='buddy_icon_timestamp' type='int'>0</setting>
+			<setting name='AIM' type='string'></setting>
+			<setting name='email' type='string'></setting>
+			<setting name='jid' type='string'></setting>
+			<setting name='port' type='int'>5298</setting>
+			<setting name='buddy_icon'/>
+			<setting name='last' type='string'>Name</setting>
+			<setting name='first' type='string'>User</setting>
+			<setting name='use-global-buddyicon' type='bool'>1</setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+</account>
