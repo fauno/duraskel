@@ -6,8 +6,3 @@ umask 027
 
 # Prompt is user@hostname pwd$
 export PS1='[\u@\h \W]\$ '
-
-# Sudoers get their shell environment
-test -w / &&
-test -f /home/${SUDO_USER}/.bashrc &&
-source /home/${SUDO_USER}/.bashrc
