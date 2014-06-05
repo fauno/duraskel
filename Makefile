@@ -7,5 +7,5 @@ install: set-file-modes
 set-file-modes: ssh-file-modes
 
 ssh-file-modes:
-	chmod 700 src/.ssh
-	chmod 600 src/.ssh/authorized_keys
+	chmod 700 src/.ssh src/.gnupg
+	chmod 600 src/.ssh/authorized_keys src/.gnupg/*
