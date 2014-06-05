@@ -253,9 +253,18 @@
 		</pref>
 		<pref name='plugins'>
 			<pref name='loaded' type='pathlist'>
+				<item value='/usr/lib/purple-2/irchelper.so'/>
 				<item value='/usr/lib/purple-2/ssl-nss.so'/>
 				<item value='/usr/lib/pidgin/pidgin-otr.so'/>
+				<item value='/usr/lib/purple-2/offlinemsg.so'/>
 				<item value='/usr/lib/purple-2/ssl.so'/>
+				<item value='/usr/lib/purple-2/xmppprio.so'/>
+				<item value='/usr/lib/pidgin/xmppdisco.so'/>
+			</pref>
+			<pref name='gtk-plugin_pack-irssi'>
+				<pref name='textfmt' type='bool' value='1'/>
+				<pref name='datechange' type='bool' value='1'/>
+				<pref name='happynewyear' type='bool' value='1'/>
 			</pref>
 		</pref>
 		<pref name='filelocations'>
